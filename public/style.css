@@ -1,15 +1,28 @@
+.bg-purple{
+    --theme-bg: url('img/bg-purple.jpg'); 
+}
+
+.bg-purple .wrapper{
+    background:rgba(64, 64, 228, 0.29);
+    --box-shadow-color: #7383bf;
+}
+
+.bg-purple *{
+    color: #363a69;
+    border-color: rgb(115, 131, 191);
+}
+
+
 body {
-    background-image: url('img/bg.jpg');
+    background-image: var(--theme-bg);
     background-size: cover;
     background-repeat: no-repeat;
 }
 
-.bg-purple{
-    background:rgba(64, 64, 228, 0.29);
-    -webkit-box-shadow:-1px 1px 3px 0px #7383bf ;
-    -moz-box-shadow:-1px 1px 3px 0px #7383bf ;
-    box-shadow:-1px 1px 3px 0px #7383bf ;
-    color: #363a69;
+.wrapper{
+    -webkit-box-shadow:-1px 1px 3px 0px var(--box-shadow-color) ;
+    -moz-box-shadow:-1px 1px 3px 0px var(--box-shadow-color) ;
+    box-shadow:-1px 1px 3px 0px var(--box-shadow-color) ;
 }
 
 .medium-icon {
@@ -18,8 +31,9 @@ body {
 
 .title{
     font-weight: bold;
-    vertical-align: middle;
+    vertical-align: middle;  
 }
+
 .seven-cols .col-md-1,
 .seven-cols .col-sm-1,
 .seven-cols .col-lg-1  {
@@ -58,13 +72,22 @@ body {
 }
 
 .calendar .day{
-    border-left: 1px solid #7383BF;
+    border-left-width: 1px;
+    border-left-style: solid;
     min-height: 80%;
 }
 .calendar .day.last{
-    border-right: 1px solid #7383BF;
+    border-right-width: 1px;
+    border-right-style: solid;
 }
 .calendar .day .title{
     text-align: center;
-    border-bottom: 1px solid #7383BF;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+}
+
+.calendar .day .title div{
+    display: inline-block;
+    margin: 10px;
+    
 }
