@@ -1,0 +1,70 @@
+body {
+    background-image: url('img/bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bg-purple{
+    background:rgba(64, 64, 228, 0.29);
+    -webkit-box-shadow:-1px 1px 3px 0px #7383bf ;
+    -moz-box-shadow:-1px 1px 3px 0px #7383bf ;
+    box-shadow:-1px 1px 3px 0px #7383bf ;
+    color: #363a69;
+}
+
+.medium-icon {
+    width: 30px;
+}
+
+.title{
+    font-weight: bold;
+    vertical-align: middle;
+}
+.seven-cols .col-md-1,
+.seven-cols .col-sm-1,
+.seven-cols .col-lg-1  {
+    padding: 0;
+}
+
+@media (min-width: 768px){
+    .seven-cols .col-md-1,
+    .seven-cols .col-sm-1,
+    .seven-cols .col-lg-1  {
+        width: 100%;
+    }
+}
+  
+@media (min-width: 992px) {
+    .seven-cols .col-md-1,
+    .seven-cols .col-sm-1,
+    .seven-cols .col-lg-1 {
+        width: 14.285714285714285714285714285714%;
+    }
+}
+@media (min-width: 1200px) {
+
+}
+
+.navigation {
+    margin-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.calendar .header{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+.calendar .day{
+    border-left: 1px solid #7383BF;
+    min-height: 80%;
+}
+.calendar .day.last{
+    border-right: 1px solid #7383BF;
+}
+.calendar .day .title{
+    text-align: center;
+    border-bottom: 1px solid #7383BF;
+}
