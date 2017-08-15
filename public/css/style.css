@@ -1,5 +1,6 @@
 .bg-purple{
-    --theme-bg: url('img/bg-purple.jpg'); 
+    --theme-bg: url('../img/bg-purple.jpg'); 
+    --selected-date-color: #4B6DAA;
 }
 
 .bg-purple .wrapper{
