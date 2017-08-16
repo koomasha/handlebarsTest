@@ -2,8 +2,10 @@
   "name": "time-manage",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",
+  "main": "tmserver.js",
   "dependencies": {
+    "express": "^4.15.4",
+    "express-handlebars": "^3.0.0",
     "jshint": "^2.9.5"
   },
   "devDependencies": {

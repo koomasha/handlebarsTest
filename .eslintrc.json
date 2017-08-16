@@ -15,7 +15,7 @@
         ],
         "linebreak-style": [
             "error",
-            "unix"
+            "windows"
         ],
         "quotes": [
             "error",
@@ -25,7 +25,8 @@
             "error",
             "always"
         ],
-        "no-empty":"warn"
+        "no-empty":"warn",
+        "no-console":"warn"
         
     }
 }
