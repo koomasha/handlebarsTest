@@ -75,7 +75,7 @@ body {
 .calendar .day{
     border-left-width: 1px;
     border-left-style: solid;
-    min-height: 80%;
+    min-height: 500px;
 }
 .calendar .day.last{
     border-right-width: 1px;

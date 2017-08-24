@@ -1,0 +1,20 @@
+
+<div class="row calendar wrapper">
+    <div class="col-md-12 header">
+        <div class="col-md-4">
+            <img class="medium-icon" id="datepicker" src="/img/icons/calendar.svg">
+            {{>week-title titleData}}
+            <img class="medium-icon" src="/img/icons/prev.svg">
+            <img class="medium-icon" src="/img/icons/next.svg">
+            <input type="hidden" value="{{controllerData}}">                                                                                                                                                                                                                                          
+        </div>
+    </div>  
+
+
+    <div class="col-md-12 seven-cols">
+        {{#each weekdays}}
+            {{>day}}
+        {{/each}}    
+    </div>
+</div>
+                                                                                                                                                                                                                                     

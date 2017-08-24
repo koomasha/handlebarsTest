@@ -8,6 +8,14 @@
     "parserOptions": {
         "sourceType": "module"
     },
+
+    "globals": {
+        "Pikaday": true,
+        "Calendar": true,
+        "moment": true,
+        "Handlebars": true
+    },
+    
     "rules": {
         "indent": [
             "error",
@@ -15,7 +23,7 @@
         ],
         "linebreak-style": [
             "error",
-            "windows"
+            "unix"
         ],
         "quotes": [
             "error",
